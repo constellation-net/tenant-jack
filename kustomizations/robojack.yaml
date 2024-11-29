@@ -5,6 +5,7 @@ metadata:
 spec:
   interval: 10m0s
   timeout: 2m0s
+  targetNamespace: tenant-jack
   sourceRef:
     kind: GitRepository
     name: tenant-repository
